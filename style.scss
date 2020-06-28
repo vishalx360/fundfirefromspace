@@ -199,7 +199,7 @@ main {
     background-color: white;
     color: black;
     border-radius: 4px;
-    transform: translateY(-100px);
+    transform: translateY(-200px);
     padding: 10px 15px;
 }
 
@@ -211,4 +211,20 @@ main {
 .pridiction {
     font-size: 2.1em;
     color: #73240a;
+}
+
+.donateBtn {
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    background: #50450aab;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    &:hover {
+        background: #776811ab;
+    }
 }
