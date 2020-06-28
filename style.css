@@ -258,4 +258,10 @@ main {
 .donateBtn:hover {
   background: #776811ab;
 }
+
+.fund-title {
+  margin: auto;
+  font-size: 2.2em;
+  width: 80%;
+}
 /*# sourceMappingURL=style.css.map */
