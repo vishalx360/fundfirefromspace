@@ -5,7 +5,8 @@
 }
 
 body {
-    background: #090205;
+    background: #1A0411;
+    color: white;
     font-size: 16px;
     font-family: Nunito;
     font-style: normal;
@@ -19,9 +20,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    background: #1e0517;
+    background: #73240a;
     color: white;
-    height: 8vh;
+    height: 50px;
     padding: 5px;
     z-index: 2;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -104,7 +105,8 @@ nav {
 
 // main
 main {
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1100px;
     margin: auto;
     // background-color: rgb(235, 235, 235);
     padding: 10px;
@@ -125,6 +127,7 @@ main {
     width: 85%;
     max-width: 800px;
     background-color: white;
+    color: black;
     border-radius: 4px;
     padding: 10px 15px;
     transform: translateY(-50%);
@@ -137,4 +140,50 @@ main {
     .desc-content {
         margin: 10px;
     }
+}
+
+.graph-container {
+    margin-bottom: 40px;
+}
+
+.two-col {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .two-col {
+        flex-direction: column;
+    }
+}
+
+.imgCaption {
+    text-align: center;
+}
+
+.content {
+    font-size: 1.2em;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 90%;
+    max-width: 800px;
+    padding: 10px 15px;
+}
+
+.one-col {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    max-width: 800px;
+}
+
+.graph-img {
+    max-width: 100%;
 }
