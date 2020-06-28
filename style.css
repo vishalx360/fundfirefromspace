@@ -42,7 +42,7 @@ nav h1 {
   font-size: 1.5em;
 }
 
-nav .project-page {
+.fund-page {
   display: block;
   color: white;
   text-decoration: none;
@@ -53,7 +53,7 @@ nav .project-page {
   font-size: 1em;
 }
 
-nav .project-page:hover {
+.fund-page:hover {
   background: #01465f9a;
 }
 
@@ -215,5 +215,28 @@ main {
 
 .graph-img {
   max-width: 100%;
+}
+
+#fund_main {
+  margin: auto;
+  width: 85%;
+  min-height: 20vh;
+  max-width: 800px;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+  padding: 10px 15px;
+}
+
+#fund-img {
+  width: 500px;
+  margin: auto;
+}
+
+.pridiction {
+  font-size: 2.1em;
+  color: #73240a;
 }
 /*# sourceMappingURL=style.css.map */

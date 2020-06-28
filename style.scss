@@ -31,18 +31,19 @@ nav {
         margin-left: 5%;
         font-size: 1.5em;
     }
-    .project-page {
-        display: block;
-        color: white;
-        text-decoration: none;
-        background: #003e5470;
-        padding: 8px 15px;
-        margin-right: 5%;
-        border-radius: 5px;
-        font-size: 1em;
-        &:hover {
-            background: #01465f9a;
-        }
+}
+
+.fund-page {
+    display: block;
+    color: white;
+    text-decoration: none;
+    background: #003e5470;
+    padding: 8px 15px;
+    margin-right: 5%;
+    border-radius: 5px;
+    font-size: 1em;
+    &:hover {
+        background: #01465f9a;
     }
 }
 
@@ -186,4 +187,28 @@ main {
 
 .graph-img {
     max-width: 100%;
+}
+
+.footer {}
+
+#fund_main {
+    margin: auto;
+    width: 85%;
+    min-height: 20vh;
+    max-width: 800px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    transform: translateY(-100px);
+    padding: 10px 15px;
+}
+
+#fund-img {
+    width: 500px;
+    margin: auto;
+}
+
+.pridiction {
+    font-size: 2.1em;
+    color: #73240a;
 }
